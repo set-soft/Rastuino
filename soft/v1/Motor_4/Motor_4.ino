@@ -1,9 +1,9 @@
 /*
   Prueba de motores del Rastuino v1.
-  Usando el vehÌculo de tres ruedas.
+  Usando el veh√≠culo de tres ruedas.
   Avanza por 5 segundos, gira 180 grados y avanza otros 5 segundos.
 */
-/* DefiniciÛn de lo pines usados para el L298N */
+/* Definici√≥n de lo pines usados para el L298N */
 int IN1=2; 
 int IN2=4;
 int ENA=3;  
@@ -58,7 +58,7 @@ void setup()
  ModoMotor(1,DERECHA);  
 
  /* Ambos motores avanzan por 5 segundos.
-    Uno de mis motores es mucho m·s lento que el otro (falla de f·brica?).
+    Uno de mis motores es mucho m√°s lento que el otro (falla de f√°brica?).
     Por ello uno tiene que ir al 40% de velocidad. */
  VelMotor(0,102);
  VelMotor(1,255);
@@ -66,11 +66,11 @@ void setup()
  digitalWrite(10,HIGH);
  delay(5000);
  /* Apagar el motor 1, el 0 sigue avanzando.
-    Con lo que el vehÌculo gira.
+    Con lo que el veh√≠culo gira.
     En nuestro caso en 1,7 segundos gira unos 180 grados. */
  VelMotor(1,0);
  delay(1700);
- /* Avanzar por 5 segundos, para volver aprox. al punto de donde saliÛ */
+ /* Avanzar por 5 segundos, para volver aprox. al punto de donde sali√≥ */
  VelMotor(1,255);
  delay(5000);
 

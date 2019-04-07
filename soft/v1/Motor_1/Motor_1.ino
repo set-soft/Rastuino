@@ -4,7 +4,7 @@
   Lo hace girar en un sentido a diferentes velocidades, lo para e invierte el
 sentido de giro.
 */
-/* Definición de lo pines usados para el L298N */
+/* DefiniciÃ³n de lo pines usados para el L298N */
 int IN1=2; 
 int IN2=4;
 int ENA=3;  

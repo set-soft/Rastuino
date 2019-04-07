@@ -4,7 +4,7 @@
   Los va acelerando de 20 a 80% y luego desacelerando de 80 a 20%.
   Mientras uno acelera el otro desacelera.
 */
-/* Definición de lo pines usados para el L298N */
+/* DefiniciÃ³n de lo pines usados para el L298N */
 int IN1=2; 
 int IN2=4;
 int ENA=3;  
