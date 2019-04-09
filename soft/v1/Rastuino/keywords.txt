@@ -1,0 +1,20 @@
+Rastuino	KEYWORD1
+Inicializar	KEYWORD2
+Encender	KEYWORD2
+Apagar	KEYWORD2
+Invertir	KEYWORD2
+Leer	KEYWORD2
+Esperar	KEYWORD2
+EsperarUnPulsador	KEYWORD2
+ModoMotor	KEYWORD2
+VelMotor	KEYWORD2
+EsperarMilis	KEYWORD2
+CalibrarMotor	KEYWORD2
+Avanzar	KEYWORD2
+Retroceder	KEYWORD2
+Frenar	KEYWORD2
+SalidaBeep	KEYWORD2
+Beep	KEYWORD2
+
+
+
