@@ -5,6 +5,8 @@ pulsadores y ayuda a detectar colisión.
   Espera a que se presione un botón en ENT3, indica con un LED en SAL1 que
 está esperando.
   Luego avanza hasta que detecta colisión con pulsadores en ENT1 y ENT2.
+  Al detectar colisión hace sonar un buzzer en SAL4 y vuelve a esperar que
+se presione el botón de ENT3.
 */
 /* Definición de lo pines usados para el L298N */
 int IN1=2; 
