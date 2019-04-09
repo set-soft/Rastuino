@@ -15,6 +15,7 @@ Retroceder	KEYWORD2
 Frenar	KEYWORD2
 SalidaBeep	KEYWORD2
 Beep	KEYWORD2
-
+GirarDerecha	KEYWORD2
+GirarIzquierda	KEYWORD2
 
 

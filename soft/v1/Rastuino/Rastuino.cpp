@@ -81,10 +81,26 @@ void Avanzar(int vel)
 
 void Retroceder(int vel)
 {
- /* Ambos motores giran a derecha */
+ /* Ambos motores giran a izquierda */
  ModoMotor(1,IZQUIERDA);
  ModoMotor(2,IZQUIERDA);
  /* Encender ambos */
+ VelMotor(1,vel);
+ VelMotor(2,vel);
+}
+
+void GirarDerecha(int vel)
+{
+ ModoMotor(1,IZQUIERDA);
+ ModoMotor(2,DERECHA);
+ VelMotor(1,vel);
+ VelMotor(2,vel);
+}
+
+void GirarIzquierda(int vel)
+{
+ ModoMotor(2,IZQUIERDA);
+ ModoMotor(1,DERECHA);
  VelMotor(1,vel);
  VelMotor(2,vel);
 }

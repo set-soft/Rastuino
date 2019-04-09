@@ -40,6 +40,8 @@ void EsperarUnPulsador(int p1, int p2=0, int p3=0, int p4=0);
 void CalibrarMotor(int motor, int full);
 void Avanzar(int vel=255);
 void Retroceder(int vel=255);
+void GirarDerecha(int vel=255);
+void GirarIzquierda(int vel=255);
 void Frenar();
 void ModoMotor(int motor, int modo);
 void VelMotor(int motor, int valor);
