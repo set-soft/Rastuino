@@ -30,25 +30,25 @@ static char canalesEnt[]={ENT1,ENT2,ENT3,ENT4};
 void Encender(int canal)
 {
  if (canal<1 || canal>4) return;
- digitalWrite(canalesSal[canal],HIGH);
+ digitalWrite(canalesSal[canal-1],HIGH);
 }
 
 void Apagar(int canal)
 {
  if (canal<1 || canal>4) return;
- digitalWrite(canalesSal[canal],LOW);
+ digitalWrite(canalesSal[canal-1],LOW);
 }
 
 void Invertir(int canal)
 {
  if (canal<1 || canal>4) return;
- digitalWrite(canalesSal[canal],!digitalRead(canalesSal[canal]));
+ digitalWrite(canalesSal[canal-1],!digitalRead(canalesSal[canal-1]));
 }
 
 int Leer(int canal)
 {
  if (canal<1 || canal>4) return LOW;
- return digitalRead(canalesEnt[canal]);
+ return digitalRead(canalesEnt[canal-1]);
 }
 
 void Esperar(int segundos)
@@ -129,5 +129,5 @@ void SalidaBeep(int canal)
 void Beep()
 {
  if (salBeep<1 || salBeep>4) return;
- tone(canalesSal[salBeep],1000,1000);
+ tone(canalesSal[salBeep-1],1000,1000);
 }
