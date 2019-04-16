@@ -91,18 +91,18 @@ void Retroceder(int vel)
 
 void GirarDerecha(int vel)
 {
- ModoMotor(1,IZQUIERDA);
+ ModoMotor(1,DERECHA);
  ModoMotor(2,DERECHA);
- VelMotor(1,vel);
+ VelMotor(1,0);
  VelMotor(2,vel);
 }
 
 void GirarIzquierda(int vel)
 {
- ModoMotor(2,IZQUIERDA);
+ ModoMotor(2,DERECHA);
  ModoMotor(1,DERECHA);
  VelMotor(1,vel);
- VelMotor(2,vel);
+ VelMotor(2,0);
 }
 
 void Frenar()
