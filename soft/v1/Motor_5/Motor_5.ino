@@ -67,7 +67,7 @@ void loop()
  /* Ambos motores avanzan por 5 segundos.
     Uno de mis motores es mucho más lento que el otro (falla de fábrica?).
     Por ello uno tiene que ir al 40% de velocidad. */
- VelMotor(0,102);
+ VelMotor(0,190);
  VelMotor(1,255);
  delay(5000);
  /* Apagar el motor 1, el 0 sigue avanzando.

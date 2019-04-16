@@ -73,9 +73,9 @@ void loop()
  /* Apagamos el LED */
  digitalWrite(SAL1,LOW);
  /* Ambos motores avanzan por 5 segundos.
-    Uno de mis motores es mucho más lento que el otro (falla de f�brica?).
-    Por ello uno tiene que ir al 40% de velocidad. */
- VelMotor(0,102);
+    Uno de mis motores es mucho más lento que el otro (falla de fábrica?).
+    Por ello uno tiene que ir al 75% de velocidad. */
+ VelMotor(0,190);
  VelMotor(1,255);
  /* Encender un LED */
  delay(5000);

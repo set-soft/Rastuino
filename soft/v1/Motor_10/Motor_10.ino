@@ -12,7 +12,7 @@ void setup()
  // Inicializa todas las entradas y salidas 
  Inicializar(); 
  // Calibra la diferencia de velocidad entre los motores
- CalibrarMotor(2,65); 
+ CalibrarMotor(2,190); 
 }
 
 void loop() 

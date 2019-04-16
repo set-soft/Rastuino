@@ -81,7 +81,7 @@ void loop()
  /* Ambos motores avanzan por 5 segundos.
     Uno de mis motores es mucho más lento que el otro (falla de fábrica?).
     Por ello uno tiene que ir al 40% de velocidad. */
- VelMotor(0,65);
+ VelMotor(0,190);
  VelMotor(1,255);
  /* Esperar a colisionar */
  while (digitalRead(ENT1)==LOW && digitalRead(ENT2)==LOW);

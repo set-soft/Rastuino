@@ -59,8 +59,8 @@ void setup()
 
  /* Ambos motores avanzan por 2 segundos.
     Uno de mis motores es mucho más lento que el otro (falla de fábrica?).
-    Por ello uno tiene que ir al 40% de velocidad. */
- VelMotor(0,102);
+    Por ello uno tiene que ir al 75% de velocidad. */
+ VelMotor(0,190);
  VelMotor(1,255);
  /* Encender un LED */
  digitalWrite(10,HIGH);
@@ -72,8 +72,8 @@ void setup()
      VelMotor(1,255);
      /* Encender el LED */
      digitalWrite(10,HIGH);
-     delay(700);
-     VelMotor(0,105);
+     delay(500);
+     VelMotor(0,190);
      VelMotor(1,0); 
      /* Apagar el LED */
      digitalWrite(10,LOW);
