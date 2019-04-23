@@ -32,6 +32,8 @@ void Encender(int canal);
 void Apagar(int canal);
 void Invertir(int canal);
 int  Leer(int canal);
+int  LeerAnalogico(int canal);
+void EscribirAnalogico(int canal, int valor);
 
 void Esperar(int segundos);
 

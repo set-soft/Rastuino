@@ -4,6 +4,8 @@ Encender	KEYWORD2
 Apagar	KEYWORD2
 Invertir	KEYWORD2
 Leer	KEYWORD2
+LeerAnalogico	KEYWORD2
+EscribirAnalogico	KEYWORD2
 Esperar	KEYWORD2
 EsperarUnPulsador	KEYWORD2
 ModoMotor	KEYWORD2

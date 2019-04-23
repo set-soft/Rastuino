@@ -33,6 +33,12 @@ void Encender(int canal)
  digitalWrite(canalesSal[canal-1],HIGH);
 }
 
+void EscribirAnalogico(int canal, int valor)
+{
+ if (canal<1 || canal>4) return;
+ analogWrite(canalesSal[canal-1],valor);
+}
+
 void Apagar(int canal)
 {
  if (canal<1 || canal>4) return;
@@ -49,6 +55,12 @@ int Leer(int canal)
 {
  if (canal<1 || canal>4) return LOW;
  return digitalRead(canalesEnt[canal-1]);
+}
+
+int LeerAnalogico(int canal)
+{
+ if (canal<1 || canal>4) return LOW;
+ return analogRead(canalesEnt[canal-1]);
 }
 
 void Esperar(int segundos)
