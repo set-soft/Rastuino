@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="240 240 240" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="3280">
+<PageBlocks>
+<Block genus-name="loop" id="124">
+<Location>
+<X>27</X>
+<Y>22</Y>
+</Location>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="125" connector-kind="socket" connector-type="cmd" init-type="cmd" label="bucle" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="Rastuino_Encender" id="125">
+<Location>
+<X>120</X>
+<Y>30</Y>
+</Location>
+<BeforeBlockId>124</BeforeBlockId>
+<AfterBlockId>127</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="126" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="127">
+<Location>
+<X>120</X>
+<Y>83</Y>
+</Location>
+<BeforeBlockId>125</BeforeBlockId>
+<AfterBlockId>129</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="128" connector-kind="socket" connector-type="number" init-type="number" label="milisegundos" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="Rastuino_Apagar" id="129">
+<Location>
+<X>120</X>
+<Y>113</Y>
+</Location>
+<BeforeBlockId>127</BeforeBlockId>
+<AfterBlockId>131</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="130" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="131">
+<Location>
+<X>120</X>
+<Y>166</Y>
+</Location>
+<BeforeBlockId>129</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="132" connector-kind="socket" connector-type="number" init-type="number" label="milisegundos" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="132">
+<Label>500</Label>
+<Location>
+<X>328</X>
+<Y>169</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="131" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="RastuinoPin_1" id="130">
+<Location>
+<X>286</X>
+<Y>116</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="129" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="number" id="128">
+<Label>500</Label>
+<Location>
+<X>328</X>
+<Y>86</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="127" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="RastuinoPin_1" id="126">
+<Location>
+<X>286</X>
+<Y>33</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="125" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>
