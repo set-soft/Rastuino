@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<cb:CODEBLOCKS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://education.mit.edu/openblocks/ns http://education.mit.edu/openblocks/codeblocks.xsd" xmlns:cb="http://education.mit.edu/openblocks/ns">
+<Pages collapsible-pages="yes" drawer-with-page="yes">
+<Page page-color="240 240 240" page-drawer="Main" page-infullview="yes" page-name="Main" page-width="3280">
+<PageBlocks>
+<Block genus-name="Rastuino_Apagar" id="149">
+<Location>
+<X>120</X>
+<Y>408</Y>
+</Location>
+<BeforeBlockId>145</BeforeBlockId>
+<AfterBlockId>151</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="150" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="Rastuino_Apagar" id="151">
+<Location>
+<X>120</X>
+<Y>461</Y>
+</Location>
+<BeforeBlockId>149</BeforeBlockId>
+<AfterBlockId>147</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="152" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="Rastuino_Encender" id="147">
+<Location>
+<X>120</X>
+<Y>514</Y>
+</Location>
+<BeforeBlockId>151</BeforeBlockId>
+<AfterBlockId>153</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="148" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="153">
+<Location>
+<X>120</X>
+<Y>567</Y>
+</Location>
+<BeforeBlockId>147</BeforeBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="154" connector-kind="socket" connector-type="number" init-type="number" label="milisegundos" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="154">
+<Label>1000</Label>
+<Location>
+<X>328</X>
+<Y>570</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="153" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="RastuinoPin_3" id="148">
+<Location>
+<X>286</X>
+<Y>517</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="147" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="RastuinoPin_2" id="152">
+<Location>
+<X>286</X>
+<Y>464</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="151" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="RastuinoPin_1" id="150">
+<Location>
+<X>286</X>
+<Y>411</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="149" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="Rastuino_Apagar" id="141">
+<Location>
+<X>120</X>
+<Y>219</Y>
+</Location>
+<BeforeBlockId>127</BeforeBlockId>
+<AfterBlockId>139</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="142" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="Rastuino_Encender" id="139">
+<Location>
+<X>120</X>
+<Y>272</Y>
+</Location>
+<BeforeBlockId>141</BeforeBlockId>
+<AfterBlockId>143</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="140" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="Rastuino_Apagar" id="143">
+<Location>
+<X>120</X>
+<Y>325</Y>
+</Location>
+<BeforeBlockId>139</BeforeBlockId>
+<AfterBlockId>145</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="144" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="145">
+<Location>
+<X>120</X>
+<Y>378</Y>
+</Location>
+<BeforeBlockId>143</BeforeBlockId>
+<AfterBlockId>149</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="146" connector-kind="socket" connector-type="number" init-type="number" label="milisegundos" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="146">
+<Label>1000</Label>
+<Location>
+<X>328</X>
+<Y>381</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="145" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="RastuinoPin_3" id="144">
+<Location>
+<X>286</X>
+<Y>328</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="143" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="RastuinoPin_2" id="140">
+<Location>
+<X>286</X>
+<Y>275</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="139" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="RastuinoPin_1" id="142">
+<Location>
+<X>286</X>
+<Y>222</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="141" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="Rastuino_Encender" id="125">
+<Location>
+<X>120</X>
+<Y>30</Y>
+</Location>
+<BeforeBlockId>124</BeforeBlockId>
+<AfterBlockId>135</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="126" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="Rastuino_Apagar" id="135">
+<Location>
+<X>120</X>
+<Y>83</Y>
+</Location>
+<BeforeBlockId>125</BeforeBlockId>
+<AfterBlockId>137</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="136" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="Rastuino_Apagar" id="137">
+<Location>
+<X>120</X>
+<Y>136</Y>
+</Location>
+<BeforeBlockId>135</BeforeBlockId>
+<AfterBlockId>127</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="138" connector-kind="socket" connector-type="number" init-type="number" label="#" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="delay" id="127">
+<Location>
+<X>120</X>
+<Y>189</Y>
+</Location>
+<BeforeBlockId>137</BeforeBlockId>
+<AfterBlockId>141</AfterBlockId>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="128" connector-kind="socket" connector-type="number" init-type="number" label="milisegundos" position-type="single"/>
+</Sockets>
+</Block>
+<Block genus-name="number" id="128">
+<Label>1000</Label>
+<Location>
+<X>328</X>
+<Y>192</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="127" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="mirror"/>
+</Plug>
+</Block>
+<Block genus-name="RastuinoPin_3" id="138">
+<Location>
+<X>286</X>
+<Y>139</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="137" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="RastuinoPin_2" id="136">
+<Location>
+<X>286</X>
+<Y>86</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="135" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="RastuinoPin_1" id="126">
+<Location>
+<X>286</X>
+<Y>33</Y>
+</Location>
+<Plug>
+<BlockConnector con-block-id="125" connector-kind="plug" connector-type="number" init-type="number" label="" position-type="single"/>
+</Plug>
+</Block>
+<Block genus-name="loop" id="124">
+<Location>
+<X>27</X>
+<Y>22</Y>
+</Location>
+<Sockets num-sockets="1">
+<BlockConnector con-block-id="125" connector-kind="socket" connector-type="cmd" init-type="cmd" label="bucle" position-type="single"/>
+</Sockets>
+</Block>
+</PageBlocks>
+</Page>
+</Pages>
+</cb:CODEBLOCKS>
